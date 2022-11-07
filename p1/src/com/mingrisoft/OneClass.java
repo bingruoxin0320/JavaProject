@@ -3,6 +3,7 @@ package com.mingrisoft;
 import java.util.Random;
 import java.util.Scanner;
 
+//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
 public class OneClass {
     public static void main(String[] args) {
         System.out.println("—————模拟微信抢红包—————");

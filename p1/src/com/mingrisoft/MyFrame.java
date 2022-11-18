@@ -16,6 +16,7 @@ class MyJDialog extends JDialog {   // 创建自定义对话框类，并继承JD
 }
 public class MyFrame extends JFrame {   // 创建父窗体类
     public MyFrame() {
+        super("title");
         Container container = getContentPane(); // 获得窗体容器
         container.setLayout(null);
         JButton b1 = new JButton("弹出对话框");
